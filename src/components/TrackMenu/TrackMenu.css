@@ -1,0 +1,86 @@
+.TrackMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+  width: 376px;
+  height: 364px;
+  background-color: #fff;
+  box-shadow: 0px 4px 42px rgba(79, 114, 205, 0.15);
+  border-radius: 8px;
+  position: absolute;
+  overflow-y: scroll;
+  top: 80px;
+  left: 45px;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  z-index: 5;
+}
+
+.TrackMenu::-webkit-scrollbar {
+  display: none;
+}
+
+.TrackMenu-label {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  background-color: #fff;
+  width: 360px;
+  min-height: 58px;
+  cursor: pointer;
+}
+
+.TrackMenu-label:hover,
+.TrackMenu-selected {
+  background-color: #f0f3f9;
+}
+
+.TrackMenu-radio {
+  background: #fbfcfe;
+  border: 1 px solid #5c5589;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 21px;
+  height: 21px;
+  margin-left: 24px;
+  margin-right: 18.5px;
+}
+
+.TrackMenu-icon,
+.TrackMenu-icon img {
+  width: 42px;
+  height: 42px;
+  margin-right: 18.19px;
+}
+
+.TrackMenu-title {
+  width: 20px;
+  height: 22px;
+  line-height: 22.08px;
+  color: #3d3b45;
+  margin-right: 138px;
+}
+
+.TrackMenu-counts {
+  display: flex;
+  align-items: center;
+  padding: 3px 12px;
+  width: 40px;
+  height: 30px;
+  border: 1px solid #6a6781;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.TrackMenu-counts > div {
+  text-align: center;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170%;
+  color: #130b43;
+  margin: 0px 10px;
+}

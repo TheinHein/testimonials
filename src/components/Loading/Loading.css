@@ -1,0 +1,140 @@
+.Loading {
+  min-width: 1376px;
+  min-height: 640px;
+  display: flex;
+  background-color: rgba(251, 252, 254, 0.95);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.fade1 {
+  animation: fade1 1s linear infinite;
+}
+
+.fade2 {
+  animation: fade2 1s linear infinite;
+}
+
+.fade3 {
+  animation: fade3 1s linear infinite;
+}
+
+.fade4 {
+  animation: fade4 1s linear infinite;
+}
+
+.fade5 {
+  animation: fade5 1s linear infinite;
+}
+
+.fade6 {
+  animation: fade6 1s linear infinite;
+}
+
+.fade7 {
+  animation: fade7 1s linear infinite;
+}
+
+.fade8 {
+  animation: fade8 1s linear infinite;
+}
+
+.fade9 {
+  animation: fade9 1s linear infinite;
+}
+
+.fade10 {
+  animation: fade10 1s linear infinite;
+}
+
+@keyframes fade1 {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade2 {
+  10% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade3 {
+  20% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade4 {
+  30% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade5 {
+  40% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade6 {
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade7 {
+  60% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade8 {
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade9 {
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade10 {
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

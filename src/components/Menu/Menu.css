@@ -1,0 +1,119 @@
+.Menu {
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Menu-logo {
+  width: 42px;
+  height: 42px;
+  margin-left: 24px;
+  margin-right: 14px;
+  background-image: url(../../assets/images/logo1.svg);
+}
+
+.Menu-button {
+  width: 13px;
+  height: 13px;
+  border: none;
+  background-color: none;
+  padding: none;
+  margin-right: 24px;
+  background-image: url(../../assets/images/arrow-down-1.svg);
+  background-position: center;
+}
+
+.Menu-filter {
+  width: 416px;
+  height: 48px;
+  border-radius: 5px;
+  margin-right: 473px;
+  background-color: #f0f3f9;
+  display: flex;
+  align-items: center;
+}
+
+.Menu-search-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0px 16px;
+  background-image: url(../../assets/images/search.svg);
+}
+
+.Menu-filter-input {
+  color: #5c5589;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  outline: none;
+  border: none;
+  background-color: #f0f3f9;
+  width: 80%;
+}
+
+.Menu-sort {
+  width: 348px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f3f9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Menu-sort-input {
+  width: 374px;
+  height: 22px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  color: #5c5589;
+  margin: 0px 16px;
+}
+
+.Menu-sort-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0px 16px;
+  background-image: url(../../assets/images/Regular.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.Menu-sort-menu {
+  position: absolute;
+  top: 65px;
+  width: 348px;
+  font-family: "Poppins";
+  background-color: #f0f3f9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  color: #5c5589;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.Menu-sort-menu > div {
+  padding: 0px 16px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Menu-sort-menu > div:hover {
+  background-color: #fff;
+}
+
+.Menu-checked {
+  font-size: 0.8em;
+}
