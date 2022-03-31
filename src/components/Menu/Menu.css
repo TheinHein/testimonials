@@ -43,14 +43,18 @@
 }
 
 .Menu-filter-input {
-  color: #5c5589;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 138%;
   outline: none;
   border: none;
   background-color: #f0f3f9;
   width: 80%;
+}
+
+.Menu-filter-input::placeholder {
+  color: #5c5589;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  font-family: "Poppins", sans-serif;
 }
 
 .Menu-sort {
@@ -67,10 +71,7 @@
 .Menu-sort-input {
   width: 374px;
   height: 22px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 138%;
   color: #5c5589;
   margin: 0px 16px;
@@ -90,11 +91,8 @@
   position: absolute;
   top: 65px;
   width: 348px;
-  font-family: "Poppins";
   background-color: #f0f3f9;
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 138%;
   color: #5c5589;
   border-radius: 5px;

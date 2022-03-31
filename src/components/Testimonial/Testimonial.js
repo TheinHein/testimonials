@@ -29,13 +29,15 @@ export default function Testimonial(props) {
               : result.content}
           </div>
         </div>
-        <div>
-          <div className="Testimonial-time">
-            {moment(result.created_at).from()}
+        <div className="Testimonial-time-wrapper">
+          <div>
+            <div className="Testimonial-time">
+              {moment(result.created_at).from()}
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="Testimonial-arrow"></div>
+          <div>
+            <div className="Testimonial-arrow"></div>
+          </div>
         </div>
       </a>
     </div>

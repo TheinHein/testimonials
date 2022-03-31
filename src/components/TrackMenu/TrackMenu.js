@@ -26,7 +26,7 @@ export default forwardRef(function TrackMenu(props, ref) {
             name="track"
             value={track.slug}
             onChange={filterByTrack}
-            checked={selectedTrack === track.slug && true}
+            disabled={selectedTrack === track.slug && true}
           />
           <div className="TrackMenu-icon">
             <img src={track.icon_url} alt={track.slug} />

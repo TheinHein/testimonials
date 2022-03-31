@@ -46,6 +46,8 @@
   height: 21px;
   margin-left: 24px;
   margin-right: 18.5px;
+  position: relative;
+  cursor: pointer;
 }
 
 .TrackMenu-icon,
@@ -81,6 +83,52 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 170%;
-  color: #130b43;
   margin: 0px 10px;
+  color: #5c5589;
+}
+
+.TrackMenu-radio:after {
+  width: 21px;
+  height: 21px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fbfcfe;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #5c5589;
+}
+
+.TrackMenu-radio:disabled::before {
+  width: 21px;
+  height: 21px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fbfcfe;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #5c5589;
+}
+
+.TrackMenu-radio:disabled:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background-color: #5c5589;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #f0f3f9;
 }

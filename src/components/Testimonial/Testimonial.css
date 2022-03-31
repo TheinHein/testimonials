@@ -77,28 +77,40 @@
   color: #3f3a5a;
 }
 
+.Testimonial-time-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 172px;
+  height: 32px;
+  right: 16px;
+  top: 16px;
+}
+
 .Testimonial-time {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+  width: 92px;
+  height: 19px;
+  right: 80px;
+  top: calc(50% - 19px / 2);
   font-weight: 500;
   font-size: 14px;
   line-height: 138%;
   text-align: right;
   color: #5c5589;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0px 48px;
-  position: absolute;
-  right: 80px;
-  top: calc(50% - 19px / 2);
 }
 
 .Testimonial-arrow {
-  margin: 0px 10px;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  right: 8px;
-  top: calc(50% - 16px / 2);
+  width: 32px;
+  height: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   background-image: url(../../assets/images/arrow-right-1.svg);
   background-position: center;
-  background-size: contain;
+  background-repeat: no-repeat;
 }

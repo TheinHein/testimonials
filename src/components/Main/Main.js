@@ -13,7 +13,7 @@ import logo1 from "../../assets/images/logo1.svg";
 
 import "./Main.css";
 
-export default function Main(props) {
+export default function Main() {
   const [filteredTracks, setFilteredTracks] = useState([]);
   const [page, setPage] = useState(1);
   const [track, setTrack] = useState(undefined);

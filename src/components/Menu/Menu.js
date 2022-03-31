@@ -61,7 +61,7 @@ export default function Menu(props) {
           placeholder="Filter by exercise title"
           ref={exerciseInput}
           onKeyDown={handleFilter}
-        ></input>
+        />
       </div>
       <div className="Menu-sort" onClick={toggleSortMenu}>
         <div className="Menu-sort-input">{sort}</div>
