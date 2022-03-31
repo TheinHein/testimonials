@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/testimonials/static/css/main.8ba62d7f.css",
+    "main.js": "/testimonials/static/js/main.616027bd.js",
+    "static/js/787.ab5bc390.chunk.js": "/testimonials/static/js/787.ab5bc390.chunk.js",
+    "static/media/badge-1.svg": "/testimonials/static/media/badge-1.be47ac6efcb3e0852692.svg",
+    "static/media/logo1.svg": "/testimonials/static/media/logo1.ed035e48d7f5b9d1e45f441013c74086.svg",
+    "static/media/track-icon.svg": "/testimonials/static/media/track-icon.e40e8e01843d79a4c9b9.svg",
+    "static/media/text.svg": "/testimonials/static/media/text.a272bdca9c428d108d91.svg",
+    "static/media/artboard-2.svg": "/testimonials/static/media/artboard-2.8d1164b9f96e9b2d792d.svg",
+    "static/media/logo2.svg": "/testimonials/static/media/logo2.32e567f0e6715c87b091.svg",
+    "static/media/mood-happy.svg": "/testimonials/static/media/mood-happy.d74743aa93bcb48368c9.svg",
+    "static/media/alarm-bell.svg": "/testimonials/static/media/alarm-bell.b4fdafd443ddb0a3ee0b82587719808f.svg",
+    "static/media/dashboard.svg": "/testimonials/static/media/dashboard.2456b954202fbafbd700e9818dff2357.svg",
+    "static/media/toys-lego.svg": "/testimonials/static/media/toys-lego.31baa47f94e20bcef687.svg",
+    "static/media/navigation-menu-vertical.svg": "/testimonials/static/media/navigation-menu-vertical.302ba1b1175235101ca4.svg",
+    "static/media/notification.svg": "/testimonials/static/media/notification.1ea5c18ccaae7c976033.svg",
+    "static/media/hexagon.svg": "/testimonials/static/media/hexagon.7a684e4652d2c0a02435.svg",
+    "static/media/conversation-chat-1.svg": "/testimonials/static/media/conversation-chat-1.659ae1d60205d7c2fb53.svg",
+    "static/media/railroad.svg": "/testimonials/static/media/railroad.9f38395bb2f01e64b308.svg",
+    "static/media/search.svg": "/testimonials/static/media/search.6e1d8e6cef5c7b80950a.svg",
+    "index.html": "/testimonials/index.html",
+    "static/media/arrow-left.svg": "/testimonials/static/media/arrow-left.1e7bb964b4a296dc2deb.svg",
+    "static/media/arrow-right.svg": "/testimonials/static/media/arrow-right.f37454383c8ee9a7cd26.svg",
+    "static/media/arrow-down-1.svg": "/testimonials/static/media/arrow-down-1.75af00b283f1f57d8666.svg",
+    "static/media/arrow-right-1.svg": "/testimonials/static/media/arrow-right-1.b7de663c2168c7ec05ff.svg",
+    "static/media/Regular.svg": "/testimonials/static/media/Regular.dc7b60cd361b9bb6b130.svg",
+    "static/media/big-red-dot.svg": "/testimonials/static/media/big-red-dot.6a6324f76b908602faa5.svg",
+    "static/media/vector.svg": "/testimonials/static/media/vector.2209f6c35c89ff3ce7a24e44973d8dc0.svg",
+    "static/media/red-dot.svg": "/testimonials/static/media/red-dot.d2bdd3fb1e251d40e5ba.svg",
+    "main.8ba62d7f.css.map": "/testimonials/static/css/main.8ba62d7f.css.map",
+    "main.616027bd.js.map": "/testimonials/static/js/main.616027bd.js.map",
+    "787.ab5bc390.chunk.js.map": "/testimonials/static/js/787.ab5bc390.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ba62d7f.css",
+    "static/js/main.616027bd.js"
+  ]
+}
