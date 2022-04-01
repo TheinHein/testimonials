@@ -18,3 +18,4 @@
 
 - Axios is used to fetch all the API data.
 - Moment is used to manipulate time.
+- API calls are tested using Jest unit testing as most of the components are updated mainly from server-side data.
