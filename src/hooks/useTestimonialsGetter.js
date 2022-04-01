@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import axios from "axios";
+import { getUserTracks } from "../utils/utils";
 
 export default function useTestimonialsGetter(page, track, exercise, order) {
   const [results, setResults] = useState();
@@ -11,21 +11,19 @@ export default function useTestimonialsGetter(page, track, exercise, order) {
 
   useEffect(() => {
     setLoading(true);
-    axios
-      .get("https://exercism.org/api/v2/hiring/testimonials", {
-        params: {
-          page,
-          track,
-          exercise,
-          order,
-        },
-      })
-      .then((response) => {
-        setResults(response.data.testimonials.results);
-        setPagination(response.data.testimonials.pagination);
-        setTrackCounts(response.data.testimonials.track_counts);
-        setLoading(false);
-      });
+    getUserTracks({
+      params: {
+        page,
+        track,
+        exercise,
+        order,
+      },
+    }).then((response) => {
+      setResults(response.data.testimonials.results);
+      setPagination(response.data.testimonials.pagination);
+      setTrackCounts(response.data.testimonials.track_counts);
+      setLoading(false);
+    });
   }, [page, track, exercise, order]);
 
   return {

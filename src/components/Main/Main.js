@@ -6,7 +6,7 @@ import Testimonial from "../Testimonial/Testimonial";
 import Pagination from "../Pagination/Pagination";
 import Loading from "../Loading/Loading";
 
-import getFilteredTracks from "../../utils/getFilteredTracks";
+import { getFilteredTracks } from "../../utils/utils";
 import useTestimonialsGetter from "../../hooks/useTestimonialsGetter";
 
 import logo1 from "../../assets/images/logo1.svg";
