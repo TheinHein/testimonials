@@ -39,7 +39,7 @@ describe("getTracks", () => {
 
 describe("getUserTracks", () => {
   describe("when API call is successful", () => {
-    it("should return users list", async () => {
+    it("should return user's tracks list", async () => {
       const tracks = [];
 
       axios.get.mockResolvedValueOnce(tracks);
@@ -54,7 +54,7 @@ describe("getUserTracks", () => {
   });
 
   describe("when API call fails", () => {
-    it("should return empty users list", async () => {
+    it("should return empty user's tracks list", async () => {
       const message = "Network Error";
       axios.get.mockRejectedValueOnce(new Error(message));
 
